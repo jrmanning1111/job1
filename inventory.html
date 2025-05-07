@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phoenix Events - Inventory</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img {
+      max-width: 150px;
+    }
+    .inventory-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .item {
+      background-color: #333;
+      padding: 15px;
+      border-radius: 8px;
+      width: 200px;
+      text-align: center;
+    }
+    .item img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    .item h3 {
+      margin: 10px 0 5px;
+    }
+    .item p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Phoenix Events Logo">
+    <h1>Inventory for Current Show</h1>
+  </header>
+  <div class="inventory-list">
+    <!-- Example Inventory Items; these can be managed by your admin later -->
+    <div class="item">
+      <img src="item1.jpg" alt="6 Foot Table">
+      <h3>6 Foot Table</h3>
+      <p>Price: $50</p>
+    </div>
+    <div class="item">
+      <img src="item2.jpg" alt="8 Foot Table">
+      <h3>8 Foot Table</h3>
+      <p>Price: $70</p>
+    </div>
+    <div class="item">
+      <img src="item3.jpg" alt="Folding Chairs">
+      <h3>Folding Chairs</h3>
+      <p>Price: $10 each</p>
+    </div>
+    <div class="item">
+      <img src="item4.jpg" alt="Bar Stools">
+      <h3>Bar Stools</h3>
+      <p>Price: $30 each</p>
+    </div>
+    <!-- More items can be added here -->
+  </div>
+</body>
+</html>
